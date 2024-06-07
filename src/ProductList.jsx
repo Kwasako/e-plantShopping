@@ -1,5 +1,6 @@
 import React, { useState,useEffect } from 'react';
 import PlantList from './components/PlantList';
+import CartItems from './components/CartItems';
 function ProductList() {
   
     const plantsArray = [
@@ -46,6 +47,7 @@ function ProductList() {
             </div>
         </div>
         <PlantList/>
+        <CartItems/>
     </div>
     );
 }

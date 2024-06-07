@@ -1,153 +1,177 @@
 const plantsArray = [
-  {
+    {
       category: "Air Purifying",
       plants: [
-          {
-              name: "Snake plant",
-              imageUrl: "https://pixabay.com/photos/snake-plant-plant-plant-pot-5939187/",
-              price: 70,
-              description: "A hardy, low-maintenance houseplant with upright, sword-shaped leaves."
-          },
-          {
-              name: "Spider plant",
-              imageUrl: "https://pixabay.com/photos/chlorophytum-plant-indoor-plant-3530413/",
-              price: 90,
-              description: "A houseplant with arching green and white-striped leaves and small offshoots."
-          },
-          {
-              name: "Aglaonema",
-              imageUrl: "https://pixabay.com/photos/aglaonema-dieffenbachia-pot-scaping-482915/",
-              price: 69,
-              description: "A versatile and low-maintenance indoor plant with striking foliage patterns."
-          },
-          {
-              name: "Succulents",
-              imageUrl: "https://pixabay.com/photos/cacti-flora-flowers-pot-1846147/",
-              price: 69,
-              description: "Fleshy leaves and ability to thrive in arid conditions."
-          },
-          {
-              name: "Cast iron plant",
-              imageUrl: "https://pixabay.com/photos/cast-iron-plant-hardy-tropical-plant-2072008/",
-              price: 89,
-              description: "A resilient and low-maintenance foliage plant."
-          },
-          {
-              name: "Pothos",
-              imageUrl: "https://pixabay.com/photos/plant-pothos-epipremnum-aureum-3816945/",
-              price: 75,
-              description: "Perfect for indoor spaces."
-          },
-          {
-              name: "ZZ plant",
-              imageUrl: "https://unsplash.com/photos/a-person-holding-a-potted-plant-in-their-hands-1gwjE0c3PSQ",
-              price: 99,
-              description: "Low-maintenance, dark green leaves, perfect for beginners."
-          },
-          {
-              name: "Aloe vera",
-              imageUrl: "https://pixabay.com/photos/leaf-nature-flora-growth-aloe-vera-3283175/",
-              price: 160,
-              description: "Soothing, healing gel used in skincare and medicine."
-          },
-          {
-              name: "Rubber plant",
-              imageUrl: "https://pixabay.com/photos/flower-houseplant-green-leaves-4850729/",
-              price: 145,
-              description: "Dark green leaves and easy care requirements."
-          },
-          {
-              name: "Boston fern",
-              imageUrl: "https://pixabay.com/photos/boston-fern-fern-house-plant-plant-5114414/",
-              price: 120,
-              description: "Vibrant green fronds."
-          },
-          {
-              name: "Peace lily",
-              imageUrl: "https://pixabay.com/photos/peace-lilies-ornamental-plants-cusps-4269365/",
-              price: 150,
-              description: "Ability to thrive in low light."
-          }
+        {
+          id: 1,
+          name: "Snake plant",
+          imageUrl: "https://cdn.pixabay.com/photo/2021/01/22/06/04/snake-plant-5939187_1280.jpg",
+          price: 70,
+          description: "A hardy, low-maintenance houseplant with upright, sword-shaped leaves."
+        },
+        {
+          id: 2,
+          name: "Spider plant",
+          imageUrl: "https://cdn.pixabay.com/photo/2018/07/11/06/47/chlorophytum-3530413_960_720.jpg",
+          price: 90,
+          description: "A houseplant with arching green and white-striped leaves and small offshoots."
+        },
+        {
+          id: 3,
+          name: "Aglaonema",
+          imageUrl: "https://cdn.pixabay.com/photo/2014/10/10/04/27/aglaonema-482915_1280.jpg",
+          price: 69,
+          description: "A versatile and low-maintenance indoor plant with striking foliage patterns."
+        },
+        {
+          id: 4,
+          name: "Succulents",
+          imageUrl: "https://cdn.pixabay.com/photo/2016/11/21/16/05/cacti-1846147_1280.jpg",
+          price: 69,
+          description: "Fleshy leaves and ability to thrive in arid conditions."
+        },
+        {
+          id: 5,
+          name: "Cast iron plant",
+          imageUrl: "https://cdn.pixabay.com/photo/2017/02/16/18/04/cast-iron-plant-2072008_1280.jpg",
+          price: 89,
+          description: "A resilient and low-maintenance foliage plant."
+        },
+        {
+          id: 6,
+          name: "Pothos",
+          imageUrl: "https://cdn.pixabay.com/photo/2018/11/15/10/32/plants-3816945_1280.jpg",
+          price: 75,
+          description: "Perfect for indoor spaces."
+        },
+        {
+          id: 7,
+          name: "ZZ plant",
+          imageUrl: "https://images.unsplash.com/photo-1632207691143-643e2a9a9361?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          price: 99,
+          description: "Low-maintenance, dark green leaves, perfect for beginners."
+        },
+        {
+          id: 8,
+          name: "Aloe vera",
+          imageUrl: "https://cdn.pixabay.com/photo/2018/04/02/07/42/leaf-3283175_1280.jpg",
+          price: 160,
+          description: "Soothing, healing gel used in skincare and medicine."
+        },
+        {
+          id: 9,
+          name: "Rubber plant",
+          imageUrl: "https://cdn.pixabay.com/photo/2020/02/15/11/49/flower-4850729_1280.jpg",
+          price: 145,
+          description: "Dark green leaves and easy care requirements."
+        },
+        {
+          id: 10,
+          name: "Boston fern",
+          imageUrl: "https://cdn.pixabay.com/photo/2020/04/30/19/52/boston-fern-5114414_1280.jpg",
+          price: 120,
+          description: "Vibrant green fronds."
+        },
+        {
+          id: 11,
+          name: "Peace lily",
+          imageUrl: "https://cdn.pixabay.com/photo/2019/06/12/14/14/peace-lilies-4269365_1280.jpg",
+          price: 150,
+          description: "Ability to thrive in low light."
+        }
       ]
-  },
-  {
+    },
+    {
       category: "Aromatic Fragrance",
       plants: [
-          {
-              name: "Calendula",
-              imageUrl: "https://pixabay.com/photos/flowers-calendula-yellow-flora-4340127/",
-              price: 150,
-              description: "Soothing properties."
-          },
-          {
-              name: "Chamomile",
-              imageUrl: "https://pixabay.com/photos/flowers-chamomile-flower-bloom-1606041/",
-              price: 170,
-              description: "Calming properties in teas and remedies."
-          },
-          {
-              name: "Peppermint",
-              imageUrl: "https://pixabay.com/photos/peppermint-medicinal-plant-2496773/",
-              price: 199,
-              description: "Refreshing flavor and medicinal properties."
-          },
-          {
-              name: "Echinacea",
-              imageUrl: "https://pixabay.com/photos/echinacea-coneflower-flower-garden-557477/",
-              price: 189,
-              description: "Commonly used to boost the immune system."
-          },
-          {
-              name: "Catnip",
-              imageUrl: "https://pixabay.com/photos/cat-tabby-catnip-cute-sniff-smell-829681/",
-              price: 120,
-              description: "Euphoria-inducing effects on cats."
-          },
-          {
-              name: "Basil",
-              imageUrl: "https://pixabay.com/photos/marigold-yellow-flowers-flowers-7028063/",
-              price: 175,
-              description: "Commonly used in cooking."
-          },
-          {
-              name: "Marigold",
-              imageUrl: "https://pixabay.com/photos/marigold-yellow-flowers-flowers-7028063/",
-              price: 160,
-              description: "Cheerful blooms and pest-repelling properties."
-          },
-          {
-              name: "Lemon balm",
-              imageUrl: "https://pixabay.com/photos/balm-green-garden-lemon-balm-4480134/",
-              price: 180,
-              description: "Used in culinary and medicinal applications."
-          },
-          {
-              name: "Mint",
-              imageUrl: "https://pixabay.com/photos/mint-plant-herb-organic-menthol-1126282/",
-              price: 100,
-              description: "Refreshing flavor and aroma."
-          },
-          {
-              name: "Rosemary",
-              imageUrl: "https://pixabay.com/photos/rosemary-herb-herbs-ingredient-4541241/",
-              price: 210,
-              description: "Used in cooking and traditional medicine."
-          },
-          {
-              name: "Jasmine",
-              imageUrl: "https://unsplash.com/photos/white-flower-in-tilt-shift-lens-flgtbhahUXs",
-              price: 130,
-              description: "A fragrant, known for its white or yellow star-shaped blooms."
-          },
-          {
-              name: "Lavender",
-              imageUrl: "https://unsplash.com/photos/purple-flowers-on-white-ceramic-vase-chyPcrDjcZg",
-              price: 155,
-              description: "Soothing aroma and medicinal properties."
-          }
+        {
+          id: 12,
+          name: "Calendula",
+          imageUrl: "https://cdn.pixabay.com/photo/2019/07/15/18/28/flowers-4340127_1280.jpg",
+          price: 150,
+          description: "Soothing properties."
+        },
+        {
+          id: 13,
+          name: "Chamomile",
+          imageUrl: "https://cdn.pixabay.com/photo/2016/08/19/19/48/flowers-1606041_1280.jpg",
+          price: 170,
+          description: "Calming properties in teas and remedies."
+        },
+        {
+          id: 14,
+          name: "Peppermint",
+          imageUrl: "https://cdn.pixabay.com/photo/2017/07/12/12/23/peppermint-2496773_1280.jpg",
+          price: 199,
+          description: "Refreshing flavor and medicinal properties."
+        },
+        {
+          id: 15,
+          name: "Echinacea",
+          imageUrl: "https://cdn.pixabay.com/photo/2014/12/05/03/53/echinacea-557477_1280.jpg",
+          price: 189,
+          description: "Commonly used to boost the immune system."
+        },
+        {
+          id: 16,
+          name: "Catnip",
+          imageUrl: "https://cdn.pixabay.com/photo/2015/07/02/21/55/cat-829681_1280.jpg",
+          price: 120,
+          description: "Euphoria-inducing effects on cats."
+        },
+        {
+          id: 17,
+          name: "Basil",
+          imageUrl: "https://cdn.pixabay.com/photo/2022/02/22/05/45/marigold-7028063_1280.jpg",
+          price: 175,
+          description: "Commonly used in cooking."
+        },
+        {
+          id: 18,
+          name: "Marigold",
+          imageUrl: "https://cdn.pixabay.com/photo/2022/02/22/05/45/marigold-7028063_1280.jpg",
+          price: 160,
+          description: "Cheerful blooms and pest-repelling properties."
+        },
+        {
+          id: 19,
+          name: "Lemon balm",
+          imageUrl: "https://cdn.pixabay.com/photo/2019/09/16/07/41/balm-4480134_1280.jpg",
+          price: 180,
+          description: "Used in culinary and medicinal applications."
+        },
+        {
+          id: 20,
+          name: "Mint",
+          imageUrl: "https://cdn.pixabay.com/photo/2016/01/07/18/16/mint-1126282_1280.jpg",
+          price: 100,
+          description: "Refreshing flavor and aroma."
+        },
+        {
+          id: 21,
+          name: "Rosemary",
+          imageUrl: "https://cdn.pixabay.com/photo/2019/10/11/07/12/rosemary-4541241_1280.jpg",
+          price: 210,
+          description: "Used in cooking and traditional medicine."
+        },
+        {
+          id: 22,
+          name: "Jasmine",
+          imageUrl: "https://images.unsplash.com/photo-1592729645009-b96d1e63d14b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          price: 130,
+          description: "A fragrant, known for its white or yellow star-shaped blooms."
+        },
+        {
+          id: 23,
+          name: "Lavender",
+          imageUrl: "https://static.vecteezy.com/system/resources/previews/002/965/261/non_2x/close-up-jasmine-flower-in-a-garden-beautiful-jasmine-white-flowers-free-photo.jpg",
+          price: 155,
+          description: "Soothing aroma and medicinal properties."
+        }
       ]
-  }
-];
+    }
+  ];
+  
 
 
 
