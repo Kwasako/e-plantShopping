@@ -87,7 +87,19 @@ background-color: lightgrey;
   background-color: #45a049;
 }
 
+.cart_container{
+  position: relative;
+  display: inline-block;
+}
+
+.cart_quantity_count{
+  position: absolute;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
 /* ProductList.css */
+
 
 .container{
   width: 100%;
